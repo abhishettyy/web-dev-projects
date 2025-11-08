@@ -1,0 +1,86 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    color:rgb(72, 70, 70);
+}
+body{
+    height: 100vh;
+    background-color: rgb(207, 192, 192);
+    
+}
+h1{
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', sans-serif 'Times New Roman', serif;
+    color:rgb(72, 70, 70);
+}
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width:180px;
+    /* border: 2px solid rgb(199, 193, 193); */
+    border-radius:50%;
+    box-shadow: 0px 0px 11px 8px  rgb(97, 102, 109);
+}
+#container{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    height: auto;
+    width: auto;
+    padding-top: 100px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.child{
+    font-weight:600;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 6px;
+    border:none;
+    width:58px;
+    height: 25px;
+    background-color: rgb(156, 156, 165);
+    color:rgb(55, 52, 52);
+    transition: all 0.3s linear; 
+}
+.child:hover{
+    transform: scale(1.095);
+}
+.body{
+    background-color: rgb(73, 71, 71);
+}
+i{
+    font-size: 2.0rem;
+    font-weight: 200;
+   
+}
+#btn{
+    float: right;
+    padding:10px;
+    border-radius: 50%;
+}
+.h2{
+    color:rgb(207, 192, 192);
+}
+.h1{
+    color:rgb(207, 192, 192);
+}
+.toggle{
+    color:rgb(207, 192, 192);
+}
+i:hover{
+    cursor: pointer;
+}
+.child:hover{
+    cursor:pointer;
+}
+.children{
+    background-color:rgb(207, 192, 192);
+}

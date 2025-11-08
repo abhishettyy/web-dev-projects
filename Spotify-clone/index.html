@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="outer">
+    <div id="sidebar">
+        <div id="home">
+            <div class="sidebar_buttons1">
+                <i id="hm" class="fa-solid fa-house"></i>
+              <div class="me1">Home</div>
+            </div>
+
+            
+            <div  class="sidebar_buttons2">
+               <i id="srch" class="fa-solid fa-magnifying-glass"></i>
+                <div class="me2">Search</div>
+            </div>
+
+        </div>
+        <div class="library">
+            <div class=" lib_heading">
+                <i id="side_bar" class="fa-solid fa-list"></i>
+                <i id="plus" class="fa-solid fa-plus"></i>
+                <div id="name">Your library</div>
+                <i id="right_arrow" class="fa-solid fa-arrow-right"></i>
+
+            </div>
+            <div class="info">
+                <p class="nor">Create your first playlist</p>
+                <p class="small_font">It's easy, we'll help you.</p>
+                <button id="btn1" class="create_buttons">Create playlist</button>
+            </div>
+            <div class="info">
+                <p class="nor">
+                    Let's find some podcast to follow.
+                </p>
+                <p class="small_font">
+                    We'll keep you updated on new episodes.
+                </p>
+                  <button id="btn2" class="create_buttons">Browse podcasts</button>
+
+            </div>
+
+        </div>
+    </div>
+   
+    <div id="content">
+         <div class="login_bar">
+            <div id="arrow1" class="arrow"><i class="fa-solid fa-less-than"></i></div>
+            <div id="arrow2" class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+            <div id="button1">Upgrade</div>
+            <div id="button2"><i class="fa-regular fa-circle-down"></i>Install app</div>
+            <div id="profile"><i class="fa-regular fa-user"></i></div>
+
+        </div>
+        <h3 id="heading1">
+        Recently played
+        </h3>
+        <div id="recently_played">
+              <div id="card1">
+                <img src="card1img.jpeg" alt="sorry">
+                <span>Your daily update of the most played...</span>
+
+              </div>
+              <div id="card12">
+                <img src="card12.png" alt="sorry">
+                
+                <span>Raghu Dixit, Guru Kiran,VijayPrakash...</span>
+
+              </div>
+              <div id="card13">
+                <img src="card13.png" alt="sorry">
+                
+                <span>HISTED,Eternxlkz, ANDROMEDA and...</span>
+
+              </div>
+              <div id="card14">
+                <img src="card14.png" alt="sorry">
+                
+                <span>Shubh, AP Dhillon, Neha Kakkar and...</span>
+
+              </div>
+              <div id="card15">
+                <img src="card15.png" alt="sorry">
+                
+                <span>LXNGVX, DR MOB, TRASHXRL and...</span>
+
+              </div>
+                  <div id="card16">
+                <img src="card16.png" alt="sorry">
+                
+                <span>Pritam, Vishal-Shekhar, Sachin...</span>
+
+              </div>
+        </div>
+        <h3 id="heading2">
+            Spotify original & exclusive podcasts
+
+        </h3>
+        <div id="suggestions">
+            <div id="card2"><img src="card2.png" alt="sorry">
+                
+                <span>Anchith, Arijith Singh, Anumita Nadesan...</span>
+            </div>
+            <div id="card3">
+                <img src="card3.png" alt="sorry">
+                
+                <span>Ed Sheeran</span>
+            </div>
+            <div id="card4">
+                <img src="card4.png" alt="sorry">
+                
+                <span>Major Lazer, DJ Snake, MO</span>
+            </div>
+            <div id="card5">
+                <img src="card5.png" alt="sorry">
+               
+                <span>Music Video &bull; Dua Lipa</span>
+            </div>
+            <div id="card6">
+                <img src="card6.png" alt="sorry">
+                
+                <span>Music video &bull; JENNIE</span>
+            </div>
+            <div id="card7">
+                <img src="card7.png" alt="sorry">
+                <span>Music video &bull; Carte Blanq, MaxxPower</span>
+            </div>
+          
+        </div>
+    </div>
+    <div id="play_bar">
+        <div id="song_info">
+            <div id="image"></div>
+            <div id="singer"> 
+                <h5>Sapphire</h5>
+                <h6> <svg  id="ic1" viewBox="0 0 16 16" class="sing">
+                <path d="M11.196 8 6 5v6l5.196-3z"></path>
+                <path d="M15.002 1.75A1.75 1.75 0 0 0 13.252 0h-10.5a1.75 1.75 0 0 0-1.75 1.75v12.5c0 .966.783 1.75 1.75 1.75h10.5a1.75 1.75 0 0 0 1.75-1.75V1.75zm-1.75-.25a.25.25 0 0 1 .25.25v12.5a.25.25 0 0 1-.25.25h-10.5a.25.25 0 0 1-.25-.25V1.75a.25.25 0 0 1 .25-.25h10.5z"></path>
+            </svg>Music video &bull; Ed Sheeran</h6>
+                
+            </div>
+        </div>
+        <div id="play_buttons">
+            <div id="play">
+                <svg id="shuffle" ><path d="M13.151.922a.75.75 0 1 0-1.06 1.06L13.109 3H11.16a3.75 3.75 0 0 0-2.873 1.34l-6.173 7.356A2.25 2.25 0 0 1 .39 12.5H0V14h.391a3.75 3.75 0 0 0 2.873-1.34l6.173-7.356a2.25 2.25 0 0 1 1.724-.804h1.947l-1.017 1.018a.75.75 0 0 0 1.06 1.06L15.98 3.75 13.15.922zM.391 3.5H0V2h.391c1.109 0 2.16.49 2.873 1.34L4.89 5.277l-.979 1.167-1.796-2.14A2.25 2.25 0 0 0 .39 3.5z"></path>
+                <path d="m7.5 10.723.98-1.167.957 1.14a2.25 2.25 0 0 0 1.724.804h1.947l-1.017-1.018a.75.75 0 1 1 1.06-1.06l2.829 2.828-2.829 2.828a.75.75 0 1 1-1.06-1.06L13.109 13H11.16a3.75 3.75 0 0 1-2.873-1.34l-.787-.938z"></path>
+                </svg>
+                <i  id="left" class="fa-solid fa-backward-step"></i>
+                <i id="center" class="fa-solid fa-circle-play"></i>
+                <i  id="right" class="fa-solid fa-forward-step"></i>
+                <svg viewBox="0 0 16 16" id="cast"><path d="M0 4.75A3.75 3.75 0 0 1 3.75 1h8.5A3.75 3.75 0 0 1 16 4.75v5a3.75 3.75 0 0 1-3.75 3.75H9.81l1.018 1.018a.75.75 0 1 1-1.06 1.06L6.939 12.75l2.829-2.828a.75.75 0 1 1 1.06 1.06L9.811 12h2.439a2.25 2.25 0 0 0 2.25-2.25v-5a2.25 2.25 0 0 0-2.25-2.25h-8.5A2.25 2.25 0 0 0 1.5 4.75v5A2.25 2.25 0 0 0 3.75 12H5v1.5H3.75A3.75 3.75 0 0 1 0 9.75v-5z"></path>
+                </svg>
+
+            </div>
+            <div id="radio">
+                <input  id="music" type="range" max="100">
+            </div>
+        </div>
+       <div id="volume_controls">
+            <svg id="ic2" viewBox="0 0 16 16" class="iconss">
+                <path d="M11.196 8 6 5v6l5.196-3z"></path>
+                <path d="M15.002 1.75A1.75 1.75 0 0 0 13.252 0h-10.5a1.75 1.75 0 0 0-1.75 1.75v12.5c0 .966.783 1.75 1.75 1.75h10.5a1.75 1.75 0 0 0 1.75-1.75V1.75zm-1.75-.25a.25.25 0 0 1 .25.25v12.5a.25.25 0 0 1-.25.25h-10.5a.25.25 0 0 1-.25-.25V1.75a.25.25 0 0 1 .25-.25h10.5z"></path>
+            </svg>
+            <svg id="ic3" viewBox="0 0 16 16" class="iconss">
+                <path d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797zM10.5 8.118l-2.619-2.62A63303.13 63303.13 0 0 0 4.74 9.075L2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045 3.505-3.99z"></path>
+            </svg>
+            <svg id="ic4" viewBox="0 0 16 16" class="iconss">
+                <path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 0 1 3.5 1h9a2.5 2.5 0 0 1 0 5h-9A2.5 2.5 0 0 1 1 3.5zm2.5-1a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9z">
+
+                </path>
+            </svg>
+            <svg id="ic4" viewBox="0 0 16 16" class="iconss">
+                <path d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15h-6.5A1.75 1.75 0 0 1 6 13.25V2.75zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25h-6.5zm-6 0a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25H4V11H1.75A1.75 1.75 0 0 1 0 9.25v-6.5C0 1.784.784 1 1.75 1H4v1.5H1.75zM4 15H2v-1.5h2V15z">
+
+                </path>
+                <path d="M13 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-1-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z">
+
+                </path>
+            </svg>
+            <svg id="ic5" viewBox="0 0 16 16" class="iconss">
+                <path d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"></path>
+
+            </svg>
+            <input id="vol_mode" type="range">
+            <svg id="ic6"  viewBox="0 0 16 16" class="iconss">
+                <path d="M16 2.45c0-.8-.65-1.45-1.45-1.45H1.45C.65 1 0 1.65 0 2.45v11.1C0 14.35.65 15 1.45 15h5.557v-1.5H1.5v-11h13V7H16V2.45z"></path>
+                <path d="M15.25 9.007a.75.75 0 0 1 .75.75v4.493a.75.75 0 0 1-.75.75H9.325a.75.75 0 0 1-.75-.75V9.757a.75.75 0 0 1 .75-.75h5.925z"></path>
+            </svg>
+            <svg id="ic7"  viewBox="0 0 16 16" class="iconss">
+                <path d="M0.25 3C0.25 2.0335 1.0335 1.25 2 1.25H5.375V2.75H2C1.86193 2.75 1.75 2.86193 1.75 3V5.42857H0.25V3ZM14 2.75H10.625V1.25H14C14.9665 1.25 15.75 2.0335 15.75 3V5.42857H14.25V3C14.25 2.86193 14.1381 2.75 14 2.75ZM1.75 10.5714V13C1.75 13.1381 1.86193 13.25 2 13.25H5.375V14.75H2C1.0335 14.75 0.25 13.9665 0.25 13V10.5714H1.75ZM14.25 13V10.5714H15.75V13C15.75 13.9665 14.9665 14.75 14 14.75H10.625V13.25H14C14.1381 13.25 14.25 13.1381 14.25 13Z"></path>
+
+
+            </svg>
+        </div>
+
+
+        
+  </div>
+    
+</body>
+</html>
