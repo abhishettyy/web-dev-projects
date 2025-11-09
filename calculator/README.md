@@ -3,7 +3,7 @@
 A responsive and user-friendly calculator built with  HTML, CSS, and JavaScript. This project features a clean, 
 retro-inspired design with a digital display font and handles both mouse and keyboard inputs.
 
-[**Live Demo**](https://abhishettyy.github.io/Calculator/) 
+[**Live Demo**]([https://abhishettyy.github.io/Calculator/](https://web-cased-calculator.vercel.app/)) 
 
 ## Features
 
