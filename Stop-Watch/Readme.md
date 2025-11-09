@@ -2,7 +2,7 @@
 
 A clean and simple stopwatch application built with vanilla JavaScript, HTML, and CSS. It features standard stopwatch controls and a sleek dark/light mode toggle.
 
-[**Live Demo**](<https://abhishettyy.github.io/Stop-watch/>) ---
+[**Live Demo**](https://stop-watch-lovat-alpha.vercel.app/)
 
 ## Features
 
