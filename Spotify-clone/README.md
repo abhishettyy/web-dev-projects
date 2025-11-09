@@ -5,7 +5,7 @@ A clean and modern **Spotify-inspired web interface** built from scratch using *
 
 
 ## Live Demo
-🔗 [View Live Project](https://abhishettyy.github.io/Project-1/)
+🔗 [View Live Project]((https://spotify-clone-smoky-nine.vercel.app/))
 
 
 
