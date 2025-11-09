@@ -2,7 +2,7 @@
 
 A classic browser-based Etch-a-Sketch application built with HTML, CSS, and JavaScript. This project allows users to create pixel art on a dynamic grid, mimicking the functionality of the nostalgic toy.
 
-[**Live Demo**](https://abhishettyy.github.io/Etch-a-Sketch/) ---
+[**Live Demo**](https://etch-a-sketch-five-xi.vercel.app/)
 
 ## Features
 
