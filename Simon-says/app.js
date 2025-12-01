@@ -1,5 +1,7 @@
  let gameSeq=[];
  let userSeq=[];
+ let c=0;
+ let st=0;
  let highScore=0;
  let level=0;
  let start=document.querySelector("#start");
@@ -17,6 +19,10 @@
  btn4.classList.add("btns");
  h3.innerHTML=`High Score:${highScore}`;
  start.addEventListener("click", function(){
+  st=1;
+  if(c){
+    start.innerHTML="Go!";
+  }
     if(started==false){
         started=true;
         levelUp();
@@ -46,7 +52,10 @@ function checkAnswer(idx){
       highScore=gameScore;
     }
     h3.innerHTML=`High score:${highScore}`;
-    h4.innerHTML=`Game over! Your score is<b> ${level}`;
+    h4.innerHTML=`Game over! your Score: ${level}`;
+    start.innerHTML="Restart";
+    c=1;
+    st=0;
     document.querySelector('body').style.backgroundColor="red";
     setTimeout(function(){
           document.querySelector('body').style.backgroundColor="rgb(18, 17, 17)";
@@ -65,11 +74,17 @@ function checkAnswer(idx){
    gameFlash(randBtn);
  } 
  function btnPress(){
-   let btn=this;
+  if(st==0){
+    alert("Press start/Restart to begin the game");
+  }
+  else{
+       let btn=this;
    userFlash(btn);
    let color= btn.getAttribute("id");
    userSeq.push(color);
    checkAnswer(userSeq.length-1);
+  }
+
  }
  let btns=document.querySelectorAll(".btns");
  for(ele of btns){
