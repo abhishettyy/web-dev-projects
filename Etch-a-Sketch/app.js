@@ -51,7 +51,7 @@ function appendBox(){
 }
 container.addEventListener("mousedown",(event)=>{
       if(container.innerHTML==""&&input.value!=null){
-        alert("click 'Done' you dumbass!");
+        alert("Please enter the order and click done");
     }
     event.target.style.cursor="pointer"; 
     event.preventDefault();
