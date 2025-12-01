@@ -10,6 +10,17 @@
     text-align: center;
     margin-top: 3rem;
 }
+#start{
+    padding: 3px;
+    border: 2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 13px;
+    margin-bottom: 5px;
+    padding-bottom:5px;
+    padding-top:5px;
+    border-radius: 10px;
+}
 body{
     width:100vw;
     height:100vh;

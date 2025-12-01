@@ -2,6 +2,7 @@
  let userSeq=[];
  let highScore=0;
  let level=0;
+ let start=document.querySelector("#start");
  let started=false;
  let color=["red","yellow","green","blue"];
  let h4=document.querySelector("h4");
@@ -15,7 +16,7 @@
  btn3.classList.add("btns");
  btn4.classList.add("btns");
  h3.innerHTML=`High Score:${highScore}`;
- document.addEventListener("keypress", function(){
+ start.addEventListener("click", function(){
     if(started==false){
         started=true;
         levelUp();
@@ -45,7 +46,7 @@ function checkAnswer(idx){
       highScore=gameScore;
     }
     h3.innerHTML=`High score:${highScore}`;
-    h4.innerHTML=`Game over! Your score is<b> ${level}</b><br> Press any key to Restart`;
+    h4.innerHTML=`Game over! Your score is<b> ${level}`;
     document.querySelector('body').style.backgroundColor="red";
     setTimeout(function(){
           document.querySelector('body').style.backgroundColor="rgb(18, 17, 17)";
@@ -61,7 +62,6 @@ function checkAnswer(idx){
    let randmColor=color[randmInd];
    let randBtn=document.querySelector(`.${randmColor}`);
    gameSeq.push(randmColor); 
-   console.log(gameSeq); 
    gameFlash(randBtn);
  } 
  function btnPress(){
