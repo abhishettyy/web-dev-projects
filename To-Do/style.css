@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(2, 12, 36);
+    color:rgb(202, 198, 198);
+    font-family:Georgia, Times, 'Times New Roman', serif
+}
+html{
+    height:fit-content;
+}
+h1{
+    color:rgb(110, 143, 164);
+    margin: 15px;
+}
+
+#outer{
+    margin-top: 80px;
+    padding-bottom:20px;
+    width: 700px;
+    height:fit-content;
+    /* border: 2px solid rgb(214, 205, 205); */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content{
+    /* border: 2px solid white; */
+    width:98%;
+    height: fit-content;
+    border-radius: 30px;
+}
+
+#input{
+    font-size: medium;
+    padding:3px;
+    padding-left: 10px;
+    width: 380px;
+    margin-top: 10px;
+    height:40px;
+    border-radius: 12px;
+}
+#buttons{
+    width:90%;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+.button{
+    background-color: rgb(9, 93, 41);
+    /* border: 2px solid rgb(26, 46, 65); */
+    width:58px;
+    color:rgb(203, 200, 203);
+    border-radius: 6px;
+    height:25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(167, 39, 32);
+    border: none;
+    width:58px;
+    color:rgb(203, 200, 203);
+    border-radius: 6px;
+    height:25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+body{
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-image: url("check.jpg");
+    background-size:auto; */
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left:10px ;
+    border: 2px solid rgb(77, 77, 77);
+    width:93%;
+    height:fit-content;
+    min-height: 34px;
+    padding: 5px;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+i{
+    font-size: 0.8rem;
+    width: 10px;
+    color: rgb(130, 126, 126);
+    cursor: pointer;
+    
+}
+.cut{
+    text-decoration: line-through;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text{
+    color: rgb(202, 198, 198);
+    display: flex;
+}
+
+
+@media(orientation: portrait){
+    
+    
+}
